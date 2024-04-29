@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "dungeons:block/silt"
+      },
+      {
+        "model": "dungeons:block/silt",
+        "y": 90
+      },
+      {
+        "model": "dungeons:block/silt",
+        "y": 180
+      },
+      {
+        "model": "dungeons:block/silt",
+        "y": 270
+      }
+    ]
+  }
+}

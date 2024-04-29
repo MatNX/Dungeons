@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "dungeons:silt",
+    "dungeons:turf",
+    "dungeons:prairie_block",
+    "dungeons:meadow_block",
+    "dungeons:silt_grass_block",
+    "dungeons:silt_meadow_block",
+    "dungeons:sprouting_prairie_block",
+    "dungeons:sprouting_meadow_block",
+    "dungeons:sprouting_grass_block",
+    "dungeons:sprouting_silt_meadow_block",
+    "dungeons:sprouting_silt_grass_block",
+    "dungeons:patchy_prairie_block",
+    "dungeons:patchy_meadow_block",
+    "dungeons:patchy_grass_block",
+    "dungeons:patchy_silt_meadow_block",
+    "dungeons:patchy_silt_grass_block"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "dungeons:block/turf"
+      },
+      {
+        "model": "dungeons:block/turf",
+        "y": 90
+      },
+      {
+        "model": "dungeons:block/turf",
+        "y": 180
+      },
+      {
+        "model": "dungeons:block/turf",
+        "y": 270
+      }
+    ]
+  }
+}

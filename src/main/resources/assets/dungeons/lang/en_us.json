@@ -1,0 +1,18 @@
+{
+  "block.dungeons.silt": "Silt",
+  "block.dungeons.turf": "Turf",
+  "block.dungeons.prairie_block": "Prairie Block",
+  "block.dungeons.meadow_block": "Meadow Block",
+  "block.dungeons.silt_grass_block": "Silt Grass Block",
+  "block.dungeons.silt_meadow_block": "Silt Meadow Block",
+  "block.dungeons.sprouting_prairie_block": "Sprouting Prairie Block",
+  "block.dungeons.sprouting_meadow_block": "Sprouting Meadow Block",
+  "block.dungeons.sprouting_grass_block": "Sprouting Grass Block",
+  "block.dungeons.sprouting_silt_meadow_block": "Sprouting Silt Meadow Block",
+  "block.dungeons.sprouting_silt_grass_block": "Sprouting Silt Grass Block",
+  "block.dungeons.patchy_prairie_block": "Patchy Prairie Block",
+  "block.dungeons.patchy_meadow_block": "Patchy Meadow Block",
+  "block.dungeons.patchy_grass_block": "Patchy Grass Block",
+  "block.dungeons.patchy_silt_meadow_block": "Patchy Silt Meadow Block",
+  "block.dungeons.patchy_silt_grass_block": "Patchy Silt Grass Block"
+}

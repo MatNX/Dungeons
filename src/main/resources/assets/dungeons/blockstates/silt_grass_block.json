@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "dungeons:block/silt_grass_block"
+      },
+      {
+        "model": "dungeons:block/silt_grass_block",
+        "y": 90
+      },
+      {
+        "model": "dungeons:block/silt_grass_block",
+        "y": 180
+      },
+      {
+        "model": "dungeons:block/silt_grass_block",
+        "y": 270
+      }
+    ]
+  }
+}

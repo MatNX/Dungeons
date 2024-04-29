@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "dungeons:block/patchy_meadow_block"
+      },
+      {
+        "model": "dungeons:block/patchy_meadow_block",
+        "y": 90
+      },
+      {
+        "model": "dungeons:block/patchy_meadow_block",
+        "y": 180
+      },
+      {
+        "model": "dungeons:block/patchy_meadow_block",
+        "y": 270
+      }
+    ]
+  }
+}
