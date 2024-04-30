@@ -32,8 +32,7 @@ public class PaintPacket {
     }
 
     public void handle(CustomPayloadEvent.Context context) {
-        ArrayList<BlockPos> posList = new ArrayList<>();
-        ArrayList<Integer> colorList = new ArrayList<>();
+        ArrayList<BlockPos> posList;
 
         byte[] byteArray = nbt.getByteArray("pos");
         String restoredString = new String(byteArray, StandardCharsets.UTF_8);
@@ -43,12 +42,11 @@ public class PaintPacket {
             String[] parts = s.split(", ");
             return new BlockPos(Integer.valueOf(parts[0]), Integer.valueOf(parts[1]), Integer.valueOf(parts[2]));
         }).collect(Collectors.toList());
-        colorList = (ArrayList<Integer>) Arrays.stream(nbt.getIntArray("color"))
-                .boxed()
-                .collect(Collectors.toList());
+
         Level level = Minecraft.getInstance().level;
         LevelChunk chunk = level.getChunkAt(posList.get(0));
         ColorCapability cap = chunk.getCapability(ColorCapabilityProvider.COLOR_CAPABILITY).orElse(null);
         cap.loadNBTData(nbt);
+        context.get().setPacketHandled(true);
     }
 }
