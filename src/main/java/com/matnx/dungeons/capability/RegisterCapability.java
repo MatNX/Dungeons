@@ -1,8 +1,11 @@
 package com.matnx.dungeons.capability;
 
 import com.matnx.dungeons.DungeonsMod;
+import com.matnx.dungeons.network.Channel;
+import com.matnx.dungeons.network.PaintPacket;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.protocol.game.ClientboundLevelChunkWithLightPacket;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
@@ -18,6 +21,7 @@ import net.minecraft.world.level.chunk.LevelChunk;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.event.level.ChunkWatchEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -28,6 +32,16 @@ public class RegisterCapability {
     @SubscribeEvent
     public static void AttachCapabilities(AttachCapabilitiesEvent<LevelChunk> event) {
         event.addCapability(new ResourceLocation(DungeonsMod.MODID, "color"), new ColorCapabilityProvider());
+    }
+    @SubscribeEvent
+    public static void DetectChunk(ChunkWatchEvent.Watch event) {
+        ColorCapability colorCapability = event.getChunk().getCapability(ColorCapabilityProvider.COLOR_CAPABILITY).orElse(null);
+        if (!colorCapability.posList.isEmpty()) {
+            CompoundTag nbt = new CompoundTag();
+            colorCapability.saveNBTData(nbt);
+            Channel.sendToClient(new PaintPacket(nbt), event.getPlayer());
+            System.out.println(colorCapability);
+        }
     }
     @SubscribeEvent
     public static void rightClickEvent(PlayerInteractEvent.RightClickBlock event) {

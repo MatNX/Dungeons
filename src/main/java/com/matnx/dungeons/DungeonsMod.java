@@ -1,5 +1,6 @@
 package com.matnx.dungeons;
 
+import com.matnx.dungeons.network.Channel;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.color.block.BlockColor;
@@ -106,7 +107,8 @@ public class DungeonsMod
     }
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
+        event.enqueueWork(() -> {
+            Channel.init();
+        });
     }
 }

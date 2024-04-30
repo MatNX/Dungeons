@@ -10,8 +10,8 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public class ColorCapability {
-    private ArrayList<BlockPos> posList = new ArrayList<>();
-    private ArrayList<Integer> colorList = new ArrayList<>();
+    public ArrayList<BlockPos> posList = new ArrayList<>();
+    public ArrayList<Integer> colorList = new ArrayList<>();
 
     public void addColor(int color, BlockPos pos) {
         posList.add(pos);
