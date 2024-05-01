@@ -21,6 +21,7 @@ import net.minecraft.world.level.chunk.LevelChunk;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.event.level.ChunkWatchEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -39,8 +40,7 @@ public class RegisterCapability {
         if (!colorCapability.posList.isEmpty()) {
             CompoundTag nbt = new CompoundTag();
             colorCapability.saveNBTData(nbt);
-            Channel.sendToClient(new PaintPacket(nbt), event.getPlayer());
-            System.out.println(colorCapability);
+            Channel.sendToClient(new PaintPacket(nbt, colorCapability.posList.get(0)), event.getPlayer());
         }
     }
     @SubscribeEvent
