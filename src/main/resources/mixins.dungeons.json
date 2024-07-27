@@ -4,10 +4,8 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "mixins.dungeons.refmap.json",
   "mixins": [
-    "MixinTint",
-    "MixinBreak"
-  ],
-  "client": [
+    "MixinBreak",
+    "MixinTint"
   ],
   "minVersion": "0.8"
 }
