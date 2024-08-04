@@ -16,6 +16,21 @@
     "dungeons:patchy_meadow_block",
     "dungeons:patchy_grass_block",
     "dungeons:patchy_silt_meadow_block",
-    "dungeons:patchy_silt_grass_block"
+    "dungeons:patchy_silt_grass_block",
+    "dungeons:full_prairie_block",
+    "dungeons:full_meadow_block",
+    "dungeons:full_grass_block",
+    "dungeons:full_sprouting_prairie_block",
+    "dungeons:full_sprouting_meadow_block",
+    "dungeons:full_sprouting_grass_block",
+    "dungeons:full_sprouting_silt_meadow_block",
+    "dungeons:full_sprouting_silt_grass_block",
+    "dungeons:full_patchy_prairie_block",
+    "dungeons:full_patchy_meadow_block",
+    "dungeons:full_patchy_grass_block",
+    "dungeons:full_patchy_silt_meadow_block",
+    "dungeons:full_patchy_silt_grass_block",
+    "dungeons:dry_sprouting_grass_block",
+    "dungeons:dry_patchy_grass_block"
   ]
 }

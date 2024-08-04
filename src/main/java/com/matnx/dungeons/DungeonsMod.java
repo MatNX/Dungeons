@@ -1,6 +1,5 @@
 package com.matnx.dungeons;
 
-import com.matnx.dungeons.network.Channel;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.color.block.BlockColor;
@@ -68,21 +67,36 @@ public class DungeonsMod
     public void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(SILT_ITEM);
+            event.accept(TURF_ITEM);
             event.accept(PRAIRIE_BLOCK_ITEM);
             event.accept(SILT_GRASS_BLOCK_ITEM);
-            event.accept(TURF_ITEM);
             event.accept(MEADOW_BLOCK_ITEM);
+            event.accept(FULL_PRAIRIE_BLOCK_ITEM);
+            event.accept(FULL_GRASS_BLOCK_ITEM);
+            event.accept(FULL_MEADOW_BLOCK_ITEM);
             event.accept(SILT_MEADOW_BLOCK_ITEM);
             event.accept(SPROUTING_GRASS_BLOCK_ITEM);
             event.accept(SPROUTING_MEADOW_BLOCK_ITEM);
             event.accept(SPROUTING_PRAIRIE_BLOCK_ITEM);
             event.accept(SPROUTING_SILT_GRASS_BLOCK_ITEM);
             event.accept(SPROUTING_SILT_MEADOW_BLOCK_ITEM);
+            event.accept(FULL_SPROUTING_GRASS_BLOCK_ITEM);
+            event.accept(FULL_SPROUTING_MEADOW_BLOCK_ITEM);
+            event.accept(FULL_SPROUTING_PRAIRIE_BLOCK_ITEM);
+            event.accept(FULL_SPROUTING_SILT_GRASS_BLOCK_ITEM);
+            event.accept(FULL_SPROUTING_SILT_MEADOW_BLOCK_ITEM);
             event.accept(PATCHY_GRASS_BLOCK_ITEM);
             event.accept(PATCHY_MEADOW_BLOCK_ITEM);
             event.accept(PATCHY_PRAIRIE_BLOCK_ITEM);
             event.accept(PATCHY_SILT_GRASS_BLOCK_ITEM);
             event.accept(PATCHY_SILT_MEADOW_BLOCK_ITEM);
+            event.accept(FULL_PATCHY_GRASS_BLOCK_ITEM);
+            event.accept(FULL_PATCHY_MEADOW_BLOCK_ITEM);
+            event.accept(FULL_PATCHY_PRAIRIE_BLOCK_ITEM);
+            event.accept(FULL_PATCHY_SILT_GRASS_BLOCK_ITEM);
+            event.accept(FULL_PATCHY_SILT_MEADOW_BLOCK_ITEM);
+            event.accept(DRY_SPROUTING_GRASS_BLOCK_ITEM);
+            event.accept(DRY_PATCHY_GRASS_BLOCK_ITEM);
         }
     }
     @Mod.EventBusSubscriber(value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -91,9 +105,13 @@ public class DungeonsMod
         public static void registerBlockColors(RegisterColorHandlersEvent.Block event) {
             event.register((p_276237_, p_276238_, p_276239_, p_276240_) -> {
                 return p_276238_ != null && p_276239_ != null ? BiomeColors.getAverageGrassColor(p_276238_, p_276239_) : GrassColor.getDefaultColor();
-            }, PRAIRIE_BLOCK.get(), MEADOW_BLOCK.get(), SILT_GRASS_BLOCK.get(), SILT_MEADOW_BLOCK.get(), 
+            }, PRAIRIE_BLOCK.get(), MEADOW_BLOCK.get(), SILT_GRASS_BLOCK.get(), SILT_MEADOW_BLOCK.get(),
+                    FULL_PRAIRIE_BLOCK.get(), FULL_MEADOW_BLOCK.get(), FULL_GRASS_BLOCK.get(),
                     SPROUTING_GRASS_BLOCK.get(), SPROUTING_MEADOW_BLOCK.get(), SPROUTING_PRAIRIE_BLOCK.get(), SPROUTING_SILT_GRASS_BLOCK.get(), SPROUTING_SILT_MEADOW_BLOCK.get(),
-                    PATCHY_GRASS_BLOCK.get(), PATCHY_MEADOW_BLOCK.get(), PATCHY_PRAIRIE_BLOCK.get(), PATCHY_SILT_GRASS_BLOCK.get(), PATCHY_SILT_MEADOW_BLOCK.get());
+                    FULL_SPROUTING_GRASS_BLOCK.get(), FULL_SPROUTING_MEADOW_BLOCK.get(), FULL_SPROUTING_PRAIRIE_BLOCK.get(), FULL_SPROUTING_SILT_GRASS_BLOCK.get(), FULL_SPROUTING_SILT_MEADOW_BLOCK.get(),
+                    PATCHY_GRASS_BLOCK.get(), PATCHY_MEADOW_BLOCK.get(), PATCHY_PRAIRIE_BLOCK.get(), PATCHY_SILT_GRASS_BLOCK.get(), PATCHY_SILT_MEADOW_BLOCK.get(),
+                    FULL_PATCHY_GRASS_BLOCK.get(), FULL_PATCHY_MEADOW_BLOCK.get(), FULL_PATCHY_PRAIRIE_BLOCK.get(), FULL_PATCHY_SILT_GRASS_BLOCK.get(), FULL_PATCHY_SILT_MEADOW_BLOCK.get(),
+                    DRY_PATCHY_GRASS_BLOCK.get(), DRY_SPROUTING_GRASS_BLOCK.get());
         }
 
         @SubscribeEvent
@@ -101,14 +119,15 @@ public class DungeonsMod
             event.register((p_92687_, p_92688_) -> {
                 return GrassColor.getDefaultColor();
             }, PRAIRIE_BLOCK_ITEM.get(), MEADOW_BLOCK_ITEM.get(), SILT_GRASS_BLOCK_ITEM.get(), SILT_MEADOW_BLOCK_ITEM.get(),
+                    FULL_PRAIRIE_BLOCK_ITEM.get(), FULL_MEADOW_BLOCK_ITEM.get(), FULL_GRASS_BLOCK_ITEM.get(),
                     SPROUTING_GRASS_BLOCK_ITEM.get(), SPROUTING_MEADOW_BLOCK_ITEM.get(), SPROUTING_PRAIRIE_BLOCK_ITEM.get(), SPROUTING_SILT_GRASS_BLOCK_ITEM.get(), SPROUTING_SILT_MEADOW_BLOCK_ITEM.get(),
-                    PATCHY_GRASS_BLOCK.get(), PATCHY_MEADOW_BLOCK.get(), PATCHY_PRAIRIE_BLOCK.get(), PATCHY_SILT_GRASS_BLOCK.get(), PATCHY_SILT_MEADOW_BLOCK.get());
+                    FULL_SPROUTING_GRASS_BLOCK_ITEM.get(), FULL_SPROUTING_MEADOW_BLOCK_ITEM.get(), FULL_SPROUTING_PRAIRIE_BLOCK_ITEM.get(), FULL_SPROUTING_SILT_GRASS_BLOCK_ITEM.get(), FULL_SPROUTING_SILT_MEADOW_BLOCK_ITEM.get(),
+                    PATCHY_GRASS_BLOCK.get(), PATCHY_MEADOW_BLOCK.get(), PATCHY_PRAIRIE_BLOCK.get(), PATCHY_SILT_GRASS_BLOCK.get(), PATCHY_SILT_MEADOW_BLOCK.get(),
+                    FULL_PATCHY_GRASS_BLOCK.get(), FULL_PATCHY_MEADOW_BLOCK.get(), FULL_PATCHY_PRAIRIE_BLOCK.get(), FULL_PATCHY_SILT_GRASS_BLOCK.get(), FULL_PATCHY_SILT_MEADOW_BLOCK.get(),
+                    DRY_PATCHY_GRASS_BLOCK_ITEM.get(), DRY_SPROUTING_GRASS_BLOCK_ITEM.get());
         }
     }
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        event.enqueueWork(() -> {
-            Channel.init();
-        });
     }
 }

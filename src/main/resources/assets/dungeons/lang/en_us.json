@@ -14,5 +14,20 @@
   "block.dungeons.patchy_meadow_block": "Patchy Meadow Block",
   "block.dungeons.patchy_grass_block": "Patchy Grass Block",
   "block.dungeons.patchy_silt_meadow_block": "Patchy Silt Meadow Block",
-  "block.dungeons.patchy_silt_grass_block": "Patchy Silt Grass Block"
+  "block.dungeons.patchy_silt_grass_block": "Patchy Silt Grass Block",
+  "block.dungeons.full_sprouting_prairie_block": "Full Sprouting Prairie Block",
+  "block.dungeons.full_sprouting_meadow_block": "Full Sprouting Meadow Block",
+  "block.dungeons.full_sprouting_grass_block": "Full Sprouting Grass Block",
+  "block.dungeons.full_sprouting_silt_meadow_block": "Full Sprouting Silt Meadow Block",
+  "block.dungeons.full_sprouting_silt_grass_block": "Full Sprouting Silt Grass Block",
+  "block.dungeons.full_patchy_prairie_block": "Full Patchy Prairie Block",
+  "block.dungeons.full_patchy_meadow_block": "Full Patchy Meadow Block",
+  "block.dungeons.full_patchy_grass_block": "Full Patchy Grass Block",
+  "block.dungeons.full_patchy_silt_meadow_block": "Full Patchy Silt Meadow Block",
+  "block.dungeons.full_patchy_silt_grass_block": "Full Patchy Silt Grass Block",
+  "block.dungeons.full_grass_block": "Full Grass Block",
+  "block.dungeons.full_meadow_block": "Full Meadow Block",
+  "block.dungeons.full_prairie_block": "Full Prairie Block",
+  "block.dungeons.dry_sprouting_grass_block": "Dry Sprouting Grass Block",
+  "block.dungeons.dry_patchy_grass_block": "Dry Patchy Grass Block"
 }

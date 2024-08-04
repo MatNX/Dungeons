@@ -28,15 +28,31 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPROUTING_SILT_MEADOW_BLOCK = BLOCKS.register("sprouting_silt_meadow_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> SPROUTING_MEADOW_BLOCK = BLOCKS.register("sprouting_meadow_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> SPROUTING_GRASS_BLOCK = BLOCKS.register("sprouting_grass_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_SPROUTING_PRAIRIE_BLOCK = BLOCKS.register("full_sprouting_prairie_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_SPROUTING_SILT_GRASS_BLOCK = BLOCKS.register("full_sprouting_silt_grass_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_SPROUTING_SILT_MEADOW_BLOCK = BLOCKS.register("full_sprouting_silt_meadow_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_SPROUTING_MEADOW_BLOCK = BLOCKS.register("full_sprouting_meadow_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_SPROUTING_GRASS_BLOCK = BLOCKS.register("full_sprouting_grass_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
 
     public static final RegistryObject<Block> PATCHY_PRAIRIE_BLOCK = BLOCKS.register("patchy_prairie_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> PATCHY_SILT_GRASS_BLOCK = BLOCKS.register("patchy_silt_grass_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> PATCHY_SILT_MEADOW_BLOCK = BLOCKS.register("patchy_silt_meadow_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> PATCHY_MEADOW_BLOCK = BLOCKS.register("patchy_meadow_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> PATCHY_GRASS_BLOCK = BLOCKS.register("patchy_grass_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_PATCHY_PRAIRIE_BLOCK = BLOCKS.register("full_patchy_prairie_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_PATCHY_SILT_GRASS_BLOCK = BLOCKS.register("full_patchy_silt_grass_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_PATCHY_SILT_MEADOW_BLOCK = BLOCKS.register("full_patchy_silt_meadow_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_PATCHY_MEADOW_BLOCK = BLOCKS.register("full_patchy_meadow_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_PATCHY_GRASS_BLOCK = BLOCKS.register("full_patchy_grass_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
 
     public static final RegistryObject<Block> PRAIRIE_BLOCK = BLOCKS.register("prairie_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> MEADOW_BLOCK = BLOCKS.register("meadow_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> SILT_GRASS_BLOCK = BLOCKS.register("silt_grass_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> SILT_MEADOW_BLOCK = BLOCKS.register("silt_meadow_block", () -> new ModGrassBlock(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_PRAIRIE_BLOCK = BLOCKS.register("full_prairie_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_MEADOW_BLOCK = BLOCKS.register("full_meadow_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> FULL_GRASS_BLOCK = BLOCKS.register("full_grass_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+
+    public static final RegistryObject<Block> DRY_SPROUTING_GRASS_BLOCK = BLOCKS.register("dry_sprouting_grass_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+    public static final RegistryObject<Block> DRY_PATCHY_GRASS_BLOCK = BLOCKS.register("dry_patchy_grass_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
 }
