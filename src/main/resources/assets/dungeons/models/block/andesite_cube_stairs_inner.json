@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dungeons:block/andesite_cubes",
+    "side": "dungeons:block/andesite_cubes",
+    "top": "dungeons:block/andesite_cubes"
+  }
+}

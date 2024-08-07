@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeons:block/andesite_cube_slab"
+    },
+    "type=double": {
+      "model": "dungeons:block/andesite_cubes"
+    },
+    "type=top": {
+      "model": "dungeons:block/andesite_cube_slab_top"
+    }
+  }
+}

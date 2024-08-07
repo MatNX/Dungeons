@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "dungeons:andesite_bricks",
+    "dungeons:andesite_brick_slab",
+    "dungeons:andesite_brick_stairs",
+    "dungeons:andesite_brick_wall",
+    "dungeons:andesite_cubes",
+    "dungeons:andesite_cube_slab",
+    "dungeons:andesite_cube_stairs",
+    "dungeons:andesite_cube_wall"
+  ]
+}
