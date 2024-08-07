@@ -29,5 +29,13 @@
   "block.dungeons.full_meadow_block": "Full Meadow Block",
   "block.dungeons.full_prairie_block": "Full Prairie Block",
   "block.dungeons.dry_sprouting_grass_block": "Dry Sprouting Grass Block",
-  "block.dungeons.dry_patchy_grass_block": "Dry Patchy Grass Block"
+  "block.dungeons.dry_patchy_grass_block": "Dry Patchy Grass Block",
+  "block.dungeons.andesite_bricks": "Andesite Bricks",
+  "block.dungeons.andesite_brick_slab": "Andesite Brick Slab",
+  "block.dungeons.andesite_brick_stairs": "Andesite Brick Stairs",
+  "block.dungeons.andesite_brick_wall": "Andesite Brick Wall",
+  "block.dungeons.andesite_cubes": "Andesite Cubes",
+  "block.dungeons.andesite_cube_slab": "Andesite Cube Slab",
+  "block.dungeons.andesite_cube_stairs": "Andesite Cube Stairs",
+  "block.dungeons.andesite_cube_wall": "Andesite Cube Wall"
 }

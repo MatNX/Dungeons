@@ -3,8 +3,7 @@ package com.matnx.dungeons;
 import com.matnx.dungeons.blocks.ModGrassBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.registries.DeferredRegister;
@@ -55,4 +54,14 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DRY_SPROUTING_GRASS_BLOCK = BLOCKS.register("dry_sprouting_grass_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
     public static final RegistryObject<Block> DRY_PATCHY_GRASS_BLOCK = BLOCKS.register("dry_patchy_grass_block", () -> new Block(Properties.ofFullCopy(Blocks.GRASS_BLOCK)));
+
+    public static final RegistryObject<Block> ANDESITE_BRICKS = BLOCKS.register("andesite_bricks", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> ANDESITE_BRICK_SLAB = BLOCKS.register("andesite_brick_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> ANDESITE_BRICK_STAIRS = BLOCKS.register("andesite_brick_stairs", () -> new StairBlock(ANDESITE_BRICKS.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> ANDESITE_BRICK_WALL = BLOCKS.register("andesite_brick_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+
+    public static final RegistryObject<Block> ANDESITE_CUBES = BLOCKS.register("andesite_cubes", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> ANDESITE_CUBE_SLAB = BLOCKS.register("andesite_cube_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> ANDESITE_CUBE_STAIRS = BLOCKS.register("andesite_cube_stairs", () -> new StairBlock(ANDESITE_CUBES.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> ANDESITE_CUBE_WALL = BLOCKS.register("andesite_cube_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
 }

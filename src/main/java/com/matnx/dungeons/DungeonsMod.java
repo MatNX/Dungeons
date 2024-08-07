@@ -98,6 +98,16 @@ public class DungeonsMod
             event.accept(DRY_SPROUTING_GRASS_BLOCK_ITEM);
             event.accept(DRY_PATCHY_GRASS_BLOCK_ITEM);
         }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ANDESITE_BRICKS_ITEM);
+            event.accept(ANDESITE_BRICK_SLAB_ITEM);
+            event.accept(ANDESITE_BRICK_STAIRS_ITEM);
+            event.accept(ANDESITE_BRICK_WALL_ITEM);
+            event.accept(ANDESITE_CUBES_ITEM);
+            event.accept(ANDESITE_CUBE_SLAB_ITEM);
+            event.accept(ANDESITE_CUBE_STAIRS_ITEM);
+            event.accept(ANDESITE_CUBE_WALL_ITEM);
+        }
     }
     @Mod.EventBusSubscriber(value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ColorRegisterHandler {

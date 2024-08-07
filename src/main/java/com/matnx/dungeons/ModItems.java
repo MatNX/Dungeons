@@ -3,8 +3,7 @@ package com.matnx.dungeons;
 import com.matnx.dungeons.blocks.ModGrassBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -52,4 +51,13 @@ public class ModItems {
     public static final RegistryObject<Item> DRY_PATCHY_GRASS_BLOCK_ITEM = ITEMS.register("dry_patchy_grass_block", () -> new BlockItem(DRY_PATCHY_GRASS_BLOCK.get(), new Item.Properties()));
     public static final RegistryObject<Item> DRY_SPROUTING_GRASS_BLOCK_ITEM = ITEMS.register("dry_sprouting_grass_block", () -> new BlockItem(DRY_SPROUTING_GRASS_BLOCK.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> ANDESITE_BRICKS_ITEM = ITEMS.register("andesite_bricks", () -> new BlockItem(ANDESITE_BRICKS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_BRICK_SLAB_ITEM = ITEMS.register("andesite_brick_slab", () -> new BlockItem(ANDESITE_BRICK_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_BRICK_STAIRS_ITEM = ITEMS.register("andesite_brick_stairs", () -> new BlockItem(ANDESITE_BRICK_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_BRICK_WALL_ITEM = ITEMS.register("andesite_brick_wall", () -> new BlockItem(ANDESITE_BRICK_WALL.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> ANDESITE_CUBES_ITEM = ITEMS.register("andesite_cubes", () -> new BlockItem(ANDESITE_CUBES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_CUBE_SLAB_ITEM = ITEMS.register("andesite_cube_slab", () -> new BlockItem(ANDESITE_CUBE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_CUBE_STAIRS_ITEM = ITEMS.register("andesite_cube_stairs", () -> new BlockItem(ANDESITE_CUBE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_CUBE_WALL_ITEM = ITEMS.register("andesite_cube_wall", () -> new BlockItem(ANDESITE_CUBE_WALL.get(), new Item.Properties()));
 }
