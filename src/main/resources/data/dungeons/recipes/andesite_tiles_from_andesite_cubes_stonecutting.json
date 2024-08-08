@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dungeons:andesite_cubes"
+  },
+  "result": "dungeons:andesite_tiles"
+}

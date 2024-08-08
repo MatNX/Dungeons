@@ -3,6 +3,7 @@
     "textures": {
         "particle": "minecraft:block/dirt",
         "bottom": "minecraft:block/dirt",
+        "side": "dungeons:block/patchy_grass_side",
         "overlay": "dungeons:block/patchy_grass_block_overlay",
         "overlay_side": "dungeons:block/patchy_grass_block_overlay_side"
     },
@@ -12,10 +13,10 @@
             "faces": {
                 "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "down" },
                 "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "up" },
-                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "north" },
-                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "south" },
-                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "west" },
-                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "east" }
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "north" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "south" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "east" }
             }
         },
         {   "from": [ 0, 0, 0 ],

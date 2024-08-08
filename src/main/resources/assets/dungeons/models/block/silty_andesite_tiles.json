@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dungeons:block/silty_andesite_tiles"
+  }
+}

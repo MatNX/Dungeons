@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dungeons:block/very_muddy_andesite_tiles"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dungeons:block/very_silty_andesite_tiles",
+    "side": "dungeons:block/very_silty_andesite_tiles",
+    "top": "dungeons:block/very_silty_andesite_tiles"
+  }
+}

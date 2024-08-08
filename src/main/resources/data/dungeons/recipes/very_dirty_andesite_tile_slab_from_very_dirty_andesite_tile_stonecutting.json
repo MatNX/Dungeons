@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dungeons:very_dirty_andesite_tiles"
+  },
+  "result": "dungeons:very_dirty_andesite_tile_slab"
+}

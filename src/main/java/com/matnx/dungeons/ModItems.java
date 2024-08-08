@@ -60,4 +60,61 @@ public class ModItems {
     public static final RegistryObject<Item> ANDESITE_CUBE_SLAB_ITEM = ITEMS.register("andesite_cube_slab", () -> new BlockItem(ANDESITE_CUBE_SLAB.get(), new Item.Properties()));
     public static final RegistryObject<Item> ANDESITE_CUBE_STAIRS_ITEM = ITEMS.register("andesite_cube_stairs", () -> new BlockItem(ANDESITE_CUBE_STAIRS.get(), new Item.Properties()));
     public static final RegistryObject<Item> ANDESITE_CUBE_WALL_ITEM = ITEMS.register("andesite_cube_wall", () -> new BlockItem(ANDESITE_CUBE_WALL.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> ANDESITE_TILES_ITEM = ITEMS.register("andesite_tiles", () -> new BlockItem(ANDESITE_TILES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_TILE_SLAB_ITEM = ITEMS.register("andesite_tile_slab", () -> new BlockItem(ANDESITE_TILE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_TILE_STAIRS_ITEM = ITEMS.register("andesite_tile_stairs", () -> new BlockItem(ANDESITE_TILE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ANDESITE_TILE_WALL_ITEM = ITEMS.register("andesite_tile_wall", () -> new BlockItem(ANDESITE_TILE_WALL.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> DIRTY_ANDESITE_CUBES_ITEM = ITEMS.register("dirty_andesite_cubes", () -> new BlockItem(DIRTY_ANDESITE_CUBES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DIRTY_ANDESITE_CUBE_SLAB_ITEM = ITEMS.register("dirty_andesite_cube_slab", () -> new BlockItem(DIRTY_ANDESITE_CUBE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DIRTY_ANDESITE_CUBE_STAIRS_ITEM = ITEMS.register("dirty_andesite_cube_stairs", () -> new BlockItem(DIRTY_ANDESITE_CUBE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DIRTY_ANDESITE_CUBE_WALL_ITEM = ITEMS.register("dirty_andesite_cube_wall", () -> new BlockItem(DIRTY_ANDESITE_CUBE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DIRTY_ANDESITE_TILES_ITEM = ITEMS.register("dirty_andesite_tiles", () -> new BlockItem(DIRTY_ANDESITE_TILES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DIRTY_ANDESITE_TILE_SLAB_ITEM = ITEMS.register("dirty_andesite_tile_slab", () -> new BlockItem(DIRTY_ANDESITE_TILE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DIRTY_ANDESITE_TILE_STAIRS_ITEM = ITEMS.register("dirty_andesite_tile_stairs", () -> new BlockItem(DIRTY_ANDESITE_TILE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DIRTY_ANDESITE_TILE_WALL_ITEM = ITEMS.register("dirty_andesite_tile_wall", () -> new BlockItem(DIRTY_ANDESITE_TILE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_DIRTY_ANDESITE_CUBES_ITEM = ITEMS.register("very_dirty_andesite_cubes", () -> new BlockItem(VERY_DIRTY_ANDESITE_CUBES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_DIRTY_ANDESITE_CUBE_SLAB_ITEM = ITEMS.register("very_dirty_andesite_cube_slab", () -> new BlockItem(VERY_DIRTY_ANDESITE_CUBE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_DIRTY_ANDESITE_CUBE_STAIRS_ITEM = ITEMS.register("very_dirty_andesite_cube_stairs", () -> new BlockItem(VERY_DIRTY_ANDESITE_CUBE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_DIRTY_ANDESITE_CUBE_WALL_ITEM = ITEMS.register("very_dirty_andesite_cube_wall", () -> new BlockItem(VERY_DIRTY_ANDESITE_CUBE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_DIRTY_ANDESITE_TILES_ITEM = ITEMS.register("very_dirty_andesite_tiles", () -> new BlockItem(VERY_DIRTY_ANDESITE_TILES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_DIRTY_ANDESITE_TILE_SLAB_ITEM = ITEMS.register("very_dirty_andesite_tile_slab", () -> new BlockItem(VERY_DIRTY_ANDESITE_TILE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_DIRTY_ANDESITE_TILE_STAIRS_ITEM = ITEMS.register("very_dirty_andesite_tile_stairs", () -> new BlockItem(VERY_DIRTY_ANDESITE_TILE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_DIRTY_ANDESITE_TILE_WALL_ITEM = ITEMS.register("very_dirty_andesite_tile_wall", () -> new BlockItem(VERY_DIRTY_ANDESITE_TILE_WALL.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> SILTY_ANDESITE_CUBES_ITEM = ITEMS.register("silty_andesite_cubes", () -> new BlockItem(SILTY_ANDESITE_CUBES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SILTY_ANDESITE_CUBE_SLAB_ITEM = ITEMS.register("silty_andesite_cube_slab", () -> new BlockItem(SILTY_ANDESITE_CUBE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SILTY_ANDESITE_CUBE_STAIRS_ITEM = ITEMS.register("silty_andesite_cube_stairs", () -> new BlockItem(SILTY_ANDESITE_CUBE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SILTY_ANDESITE_CUBE_WALL_ITEM = ITEMS.register("silty_andesite_cube_wall", () -> new BlockItem(SILTY_ANDESITE_CUBE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SILTY_ANDESITE_TILES_ITEM = ITEMS.register("silty_andesite_tiles", () -> new BlockItem(SILTY_ANDESITE_TILES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SILTY_ANDESITE_TILE_SLAB_ITEM = ITEMS.register("silty_andesite_tile_slab", () -> new BlockItem(SILTY_ANDESITE_TILE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SILTY_ANDESITE_TILE_STAIRS_ITEM = ITEMS.register("silty_andesite_tile_stairs", () -> new BlockItem(SILTY_ANDESITE_TILE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SILTY_ANDESITE_TILE_WALL_ITEM = ITEMS.register("silty_andesite_tile_wall", () -> new BlockItem(SILTY_ANDESITE_TILE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_SILTY_ANDESITE_CUBES_ITEM = ITEMS.register("very_silty_andesite_cubes", () -> new BlockItem(VERY_SILTY_ANDESITE_CUBES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_SILTY_ANDESITE_CUBE_SLAB_ITEM = ITEMS.register("very_silty_andesite_cube_slab", () -> new BlockItem(VERY_SILTY_ANDESITE_CUBE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_SILTY_ANDESITE_CUBE_STAIRS_ITEM = ITEMS.register("very_silty_andesite_cube_stairs", () -> new BlockItem(VERY_SILTY_ANDESITE_CUBE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_SILTY_ANDESITE_CUBE_WALL_ITEM = ITEMS.register("very_silty_andesite_cube_wall", () -> new BlockItem(VERY_SILTY_ANDESITE_CUBE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_SILTY_ANDESITE_TILES_ITEM = ITEMS.register("very_silty_andesite_tiles", () -> new BlockItem(VERY_SILTY_ANDESITE_TILES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_SILTY_ANDESITE_TILE_SLAB_ITEM = ITEMS.register("very_silty_andesite_tile_slab", () -> new BlockItem(VERY_SILTY_ANDESITE_TILE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_SILTY_ANDESITE_TILE_STAIRS_ITEM = ITEMS.register("very_silty_andesite_tile_stairs", () -> new BlockItem(VERY_SILTY_ANDESITE_TILE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_SILTY_ANDESITE_TILE_WALL_ITEM = ITEMS.register("very_silty_andesite_tile_wall", () -> new BlockItem(VERY_SILTY_ANDESITE_TILE_WALL.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> MUDDY_ANDESITE_CUBES_ITEM = ITEMS.register("muddy_andesite_cubes", () -> new BlockItem(MUDDY_ANDESITE_CUBES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MUDDY_ANDESITE_CUBE_SLAB_ITEM = ITEMS.register("muddy_andesite_cube_slab", () -> new BlockItem(MUDDY_ANDESITE_CUBE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MUDDY_ANDESITE_CUBE_STAIRS_ITEM = ITEMS.register("muddy_andesite_cube_stairs", () -> new BlockItem(MUDDY_ANDESITE_CUBE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MUDDY_ANDESITE_CUBE_WALL_ITEM = ITEMS.register("muddy_andesite_cube_wall", () -> new BlockItem(MUDDY_ANDESITE_CUBE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MUDDY_ANDESITE_TILES_ITEM = ITEMS.register("muddy_andesite_tiles", () -> new BlockItem(MUDDY_ANDESITE_TILES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MUDDY_ANDESITE_TILE_SLAB_ITEM = ITEMS.register("muddy_andesite_tile_slab", () -> new BlockItem(MUDDY_ANDESITE_TILE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MUDDY_ANDESITE_TILE_STAIRS_ITEM = ITEMS.register("muddy_andesite_tile_stairs", () -> new BlockItem(MUDDY_ANDESITE_TILE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MUDDY_ANDESITE_TILE_WALL_ITEM = ITEMS.register("muddy_andesite_tile_wall", () -> new BlockItem(MUDDY_ANDESITE_TILE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_MUDDY_ANDESITE_CUBES_ITEM = ITEMS.register("very_muddy_andesite_cubes", () -> new BlockItem(VERY_MUDDY_ANDESITE_CUBES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_MUDDY_ANDESITE_CUBE_SLAB_ITEM = ITEMS.register("very_muddy_andesite_cube_slab", () -> new BlockItem(VERY_MUDDY_ANDESITE_CUBE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_MUDDY_ANDESITE_CUBE_STAIRS_ITEM = ITEMS.register("very_muddy_andesite_cube_stairs", () -> new BlockItem(VERY_MUDDY_ANDESITE_CUBE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_MUDDY_ANDESITE_CUBE_WALL_ITEM = ITEMS.register("very_muddy_andesite_cube_wall", () -> new BlockItem(VERY_MUDDY_ANDESITE_CUBE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_MUDDY_ANDESITE_TILES_ITEM = ITEMS.register("very_muddy_andesite_tiles", () -> new BlockItem(VERY_MUDDY_ANDESITE_TILES.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_MUDDY_ANDESITE_TILE_SLAB_ITEM = ITEMS.register("very_muddy_andesite_tile_slab", () -> new BlockItem(VERY_MUDDY_ANDESITE_TILE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_MUDDY_ANDESITE_TILE_STAIRS_ITEM = ITEMS.register("very_muddy_andesite_tile_stairs", () -> new BlockItem(VERY_MUDDY_ANDESITE_TILE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> VERY_MUDDY_ANDESITE_TILE_WALL_ITEM = ITEMS.register("very_muddy_andesite_tile_wall", () -> new BlockItem(VERY_MUDDY_ANDESITE_TILE_WALL.get(), new Item.Properties()));
+
 }

@@ -1,6 +1,20 @@
 {
   "replace": false,
   "values": [
-    "dungeons:andesite_cube_wall"
+    "dungeons:andesite_brick_wall",
+    "dungeons:andesite_cube_wall",
+    "dungeons:andesite_tile_wall",
+    "dungeons:dirty_andesite_cube_wall",
+    "dungeons:dirty_andesite_tile_wall",
+    "dungeons:very_dirty_andesite_cube_wall",
+    "dungeons:very_dirty_andesite_tile_wall",
+    "dungeons:muddy_andesite_cube_wall",
+    "dungeons:muddy_andesite_tile_wall",
+    "dungeons:very_muddy_andesite_cube_wall",
+    "dungeons:very_muddy_andesite_tile_wall",
+    "dungeons:silty_andesite_cube_wall",
+    "dungeons:silty_andesite_tile_wall",
+    "dungeons:very_silty_andesite_cube_wall",
+    "dungeons:very_silty_andesite_tile_wall"
   ]
 }

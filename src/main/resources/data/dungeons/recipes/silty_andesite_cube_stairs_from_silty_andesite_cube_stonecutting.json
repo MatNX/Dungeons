@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dungeons:silty_andesite_cubes"
+  },
+  "result": "dungeons:silty_andesite_cube_stairs"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeons:block/silty_andesite_tile_slab"
+    },
+    "type=double": {
+      "model": "dungeons:block/silty_andesite_tiles"
+    },
+    "type=top": {
+      "model": "dungeons:block/silty_andesite_tile_slab_top"
+    }
+  }
+}

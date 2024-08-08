@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "dungeons:block/very_dirty_andesite_cubes"
+  }
+}
