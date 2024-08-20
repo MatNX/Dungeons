@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "dungeons:block/very_dirty_andesite_rubble"
+  }
+}

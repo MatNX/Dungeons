@@ -39,6 +39,7 @@ import org.slf4j.Logger;
 
 import static com.matnx.dungeons.ModBlocks.*;
 import static com.matnx.dungeons.ModItems.*;
+import static com.matnx.dungeons.ModItems.MOSSY_ANDESITE_BRICK_SLAB_ITEM;
 import static net.minecraft.world.level.block.Blocks.GRASS_BLOCK;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -159,6 +160,66 @@ public class DungeonsMod
             event.accept(VERY_MUDDY_ANDESITE_TILE_SLAB_ITEM);
             event.accept(VERY_MUDDY_ANDESITE_TILE_STAIRS_ITEM);
             event.accept(VERY_MUDDY_ANDESITE_TILE_WALL_ITEM);
+            event.accept(MUD_ANDESITE_CUBES_ITEM);
+            event.accept(MUD_ANDESITE_CUBE_SLAB_ITEM);
+            event.accept(MUD_ANDESITE_CUBE_STAIRS_ITEM);
+            event.accept(MUD_ANDESITE_CUBE_WALL_ITEM);
+            event.accept(SILT_ANDESITE_CUBES_ITEM);
+            event.accept(SILT_ANDESITE_CUBE_SLAB_ITEM);
+            event.accept(SILT_ANDESITE_CUBE_STAIRS_ITEM);
+            event.accept(SILT_ANDESITE_CUBE_WALL_ITEM);
+            event.accept(DIRT_ANDESITE_CUBES_ITEM);
+            event.accept(DIRT_ANDESITE_CUBE_SLAB_ITEM);
+            event.accept(DIRT_ANDESITE_CUBE_STAIRS_ITEM);
+            event.accept(DIRT_ANDESITE_CUBE_WALL_ITEM);
+            event.accept(MUDDY_ANDESITE_RUBBLE_ITEM);
+            event.accept(MUDDY_ANDESITE_RUBBLE_SLAB_ITEM);
+            event.accept(MUDDY_ANDESITE_RUBBLE_STAIRS_ITEM);
+            event.accept(MUDDY_ANDESITE_RUBBLE_WALL_ITEM);
+            event.accept(SILTY_ANDESITE_RUBBLE_ITEM);
+            event.accept(SILTY_ANDESITE_RUBBLE_SLAB_ITEM);
+            event.accept(SILTY_ANDESITE_RUBBLE_STAIRS_ITEM);
+            event.accept(SILTY_ANDESITE_RUBBLE_WALL_ITEM);
+            event.accept(DIRTY_ANDESITE_RUBBLE_ITEM);
+            event.accept(DIRTY_ANDESITE_RUBBLE_SLAB_ITEM);
+            event.accept(DIRTY_ANDESITE_RUBBLE_STAIRS_ITEM);
+            event.accept(DIRTY_ANDESITE_RUBBLE_WALL_ITEM);
+            event.accept(MUD_ANDESITE_RUBBLE_ITEM);
+            event.accept(MUD_ANDESITE_RUBBLE_SLAB_ITEM);
+            event.accept(MUD_ANDESITE_RUBBLE_STAIRS_ITEM);
+            event.accept(MUD_ANDESITE_RUBBLE_WALL_ITEM);
+            event.accept(SILT_ANDESITE_RUBBLE_ITEM);
+            event.accept(SILT_ANDESITE_RUBBLE_SLAB_ITEM);
+            event.accept(SILT_ANDESITE_RUBBLE_STAIRS_ITEM);
+            event.accept(SILT_ANDESITE_RUBBLE_WALL_ITEM);
+            event.accept(DIRT_ANDESITE_RUBBLE_ITEM);
+            event.accept(DIRT_ANDESITE_RUBBLE_SLAB_ITEM);
+            event.accept(DIRT_ANDESITE_RUBBLE_STAIRS_ITEM);
+            event.accept(DIRT_ANDESITE_RUBBLE_WALL_ITEM);
+            event.accept(VERY_MUDDY_ANDESITE_RUBBLE_ITEM);
+            event.accept(VERY_MUDDY_ANDESITE_RUBBLE_SLAB_ITEM);
+            event.accept(VERY_MUDDY_ANDESITE_RUBBLE_STAIRS_ITEM);
+            event.accept(VERY_MUDDY_ANDESITE_RUBBLE_WALL_ITEM);
+            event.accept(VERY_SILTY_ANDESITE_RUBBLE_ITEM);
+            event.accept(VERY_SILTY_ANDESITE_RUBBLE_SLAB_ITEM);
+            event.accept(VERY_SILTY_ANDESITE_RUBBLE_STAIRS_ITEM);
+            event.accept(VERY_SILTY_ANDESITE_RUBBLE_WALL_ITEM);
+            event.accept(VERY_DIRTY_ANDESITE_RUBBLE_ITEM);
+            event.accept(VERY_DIRTY_ANDESITE_RUBBLE_SLAB_ITEM);
+            event.accept(VERY_DIRTY_ANDESITE_RUBBLE_STAIRS_ITEM);
+            event.accept(VERY_DIRTY_ANDESITE_RUBBLE_WALL_ITEM);
+            event.accept(MOSSY_ANDESITE_BRICKS_ITEM);
+            event.accept(MOSSY_ANDESITE_BRICK_SLAB_ITEM);
+            event.accept(MOSSY_ANDESITE_BRICK_STAIRS_ITEM);
+            event.accept(MOSSY_ANDESITE_BRICK_WALL_ITEM);
+            event.accept(CHARRED_ANDESITE_BRICKS_ITEM);
+            event.accept(CHARRED_ANDESITE_BRICK_SLAB_ITEM);
+            event.accept(CHARRED_ANDESITE_BRICK_STAIRS_ITEM);
+            event.accept(CHARRED_ANDESITE_BRICK_WALL_ITEM);
+            event.accept(CHARRED_MOSSY_ANDESITE_BRICKS_ITEM);
+            event.accept(CHARRED_MOSSY_ANDESITE_BRICK_SLAB_ITEM);
+            event.accept(CHARRED_MOSSY_ANDESITE_BRICK_STAIRS_ITEM);
+            event.accept(CHARRED_MOSSY_ANDESITE_BRICK_WALL_ITEM);
         }
     }
     @Mod.EventBusSubscriber(value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)

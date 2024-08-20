@@ -15,6 +15,21 @@
     "dungeons:silty_andesite_cube_slab",
     "dungeons:silty_andesite_tile_slab",
     "dungeons:very_silty_andesite_cube_slab",
-    "dungeons:very_silty_andesite_tile_slab"
+    "dungeons:very_silty_andesite_tile_slab",
+    "dungeons:silt_andesite_cube_slab",
+    "dungeons:mud_andesite_cube_slab",
+    "dungeons:dirt_andesite_cube_slab",
+    "dungeons:silt_andesite_rubble_slab",
+    "dungeons:mud_andesite_rubble_slab",
+    "dungeons:dirt_andesite_rubble_slab",
+    "dungeons:silty_andesite_rubble_slab",
+    "dungeons:muddy_andesite_rubble_slab",
+    "dungeons:dirty_andesite_rubble_slab",
+    "dungeons:very_silty_andesite_rubble_slab",
+    "dungeons:very_muddy_andesite_rubble_slab",
+    "dungeons:very_dirty_andesite_rubble_slab",
+    "dungeons:mossy_andesite_brick_slab",
+    "dungeons:charred_andesite_brick_slab",
+    "dungeons:charred_mossy_andesite_brick_slab"
   ]
 }

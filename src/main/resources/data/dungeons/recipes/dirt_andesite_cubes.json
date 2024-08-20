@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "dungeons:andesite_cubes"
+    },
+    {
+      "item": "dungeons:andesite_cubes"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "dungeons:dirt_andesite_cubes"
+  }
+}

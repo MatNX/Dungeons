@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "dungeons:andesite_tiles"
+    },
+    {
+      "item": "dungeons:andesite_tiles"
+    },
+    {
+      "item": "dungeons:andesite_tiles"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "dungeons:dirty_andesite_tiles"
+  }
+}

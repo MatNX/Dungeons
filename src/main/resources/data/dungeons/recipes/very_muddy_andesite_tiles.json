@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dungeons:turf"
+    },
+    {
+      "item": "dungeons:turf"
+    },
+    {
+      "item": "dungeons:turf"
+    },
+    {
+      "item": "dungeons:andesite_tiles"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "dungeons:very_muddy_andesite_tiles"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dungeons:block/silt_andesite_rubble",
+    "side": "dungeons:block/silt_andesite_rubble",
+    "top": "dungeons:block/silt_andesite_rubble"
+  }
+}

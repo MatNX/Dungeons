@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeons:block/silt_andesite_rubble_slab"
+    },
+    "type=double": {
+      "model": "dungeons:block/silt_andesite_rubble"
+    },
+    "type=top": {
+      "model": "dungeons:block/silt_andesite_rubble_slab_top"
+    }
+  }
+}

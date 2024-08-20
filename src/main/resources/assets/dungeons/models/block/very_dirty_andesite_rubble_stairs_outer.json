@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dungeons:block/very_dirty_andesite_rubble",
+    "side": "dungeons:block/very_dirty_andesite_rubble",
+    "top": "dungeons:block/very_dirty_andesite_rubble"
+  }
+}

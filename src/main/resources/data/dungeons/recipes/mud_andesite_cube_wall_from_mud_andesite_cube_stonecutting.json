@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dungeons:mud_andesite_cubes"
+  },
+  "result": "dungeons:mud_andesite_cube_wall"
+}

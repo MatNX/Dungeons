@@ -121,4 +121,69 @@ public class ModBlocks {
     public static final RegistryObject<Block> VERY_SILTY_ANDESITE_TILE_STAIRS = BLOCKS.register("very_silty_andesite_tile_stairs", () -> new StairBlock(VERY_SILTY_ANDESITE_TILES.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
     public static final RegistryObject<Block> VERY_SILTY_ANDESITE_TILE_WALL = BLOCKS.register("very_silty_andesite_tile_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
 
+    public static final RegistryObject<Block> DIRT_ANDESITE_CUBES = BLOCKS.register("dirt_andesite_cubes", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> DIRT_ANDESITE_CUBE_SLAB = BLOCKS.register("dirt_andesite_cube_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> DIRT_ANDESITE_CUBE_STAIRS = BLOCKS.register("dirt_andesite_cube_stairs", () -> new StairBlock(DIRT_ANDESITE_CUBES.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> DIRT_ANDESITE_CUBE_WALL = BLOCKS.register("dirt_andesite_cube_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> MUD_ANDESITE_CUBES = BLOCKS.register("mud_andesite_cubes", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> MUD_ANDESITE_CUBE_SLAB = BLOCKS.register("mud_andesite_cube_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> MUD_ANDESITE_CUBE_STAIRS = BLOCKS.register("mud_andesite_cube_stairs", () -> new StairBlock(MUD_ANDESITE_CUBES.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> MUD_ANDESITE_CUBE_WALL = BLOCKS.register("mud_andesite_cube_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> SILT_ANDESITE_CUBES = BLOCKS.register("silt_andesite_cubes", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> SILT_ANDESITE_CUBE_SLAB = BLOCKS.register("silt_andesite_cube_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> SILT_ANDESITE_CUBE_STAIRS = BLOCKS.register("silt_andesite_cube_stairs", () -> new StairBlock(SILT_ANDESITE_CUBES.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> SILT_ANDESITE_CUBE_WALL = BLOCKS.register("silt_andesite_cube_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+
+    public static final RegistryObject<Block> DIRT_ANDESITE_RUBBLE = BLOCKS.register("dirt_andesite_rubble", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> DIRT_ANDESITE_RUBBLE_SLAB = BLOCKS.register("dirt_andesite_rubble_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> DIRT_ANDESITE_RUBBLE_STAIRS = BLOCKS.register("dirt_andesite_rubble_stairs", () -> new StairBlock(DIRT_ANDESITE_RUBBLE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> DIRT_ANDESITE_RUBBLE_WALL = BLOCKS.register("dirt_andesite_rubble_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> MUD_ANDESITE_RUBBLE = BLOCKS.register("mud_andesite_rubble", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> MUD_ANDESITE_RUBBLE_SLAB = BLOCKS.register("mud_andesite_rubble_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> MUD_ANDESITE_RUBBLE_STAIRS = BLOCKS.register("mud_andesite_rubble_stairs", () -> new StairBlock(MUD_ANDESITE_RUBBLE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> MUD_ANDESITE_RUBBLE_WALL = BLOCKS.register("mud_andesite_rubble_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> SILT_ANDESITE_RUBBLE = BLOCKS.register("silt_andesite_rubble", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> SILT_ANDESITE_RUBBLE_SLAB = BLOCKS.register("silt_andesite_rubble_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> SILT_ANDESITE_RUBBLE_STAIRS = BLOCKS.register("silt_andesite_rubble_stairs", () -> new StairBlock(SILT_ANDESITE_RUBBLE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> SILT_ANDESITE_RUBBLE_WALL = BLOCKS.register("silt_andesite_rubble_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+
+    public static final RegistryObject<Block> DIRTY_ANDESITE_RUBBLE = BLOCKS.register("dirty_andesite_rubble", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> DIRTY_ANDESITE_RUBBLE_SLAB = BLOCKS.register("dirty_andesite_rubble_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> DIRTY_ANDESITE_RUBBLE_STAIRS = BLOCKS.register("dirty_andesite_rubble_stairs", () -> new StairBlock(DIRTY_ANDESITE_RUBBLE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> DIRTY_ANDESITE_RUBBLE_WALL = BLOCKS.register("dirty_andesite_rubble_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> MUDDY_ANDESITE_RUBBLE = BLOCKS.register("muddy_andesite_rubble", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> MUDDY_ANDESITE_RUBBLE_SLAB = BLOCKS.register("muddy_andesite_rubble_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> MUDDY_ANDESITE_RUBBLE_STAIRS = BLOCKS.register("muddy_andesite_rubble_stairs", () -> new StairBlock(MUDDY_ANDESITE_RUBBLE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> MUDDY_ANDESITE_RUBBLE_WALL = BLOCKS.register("muddy_andesite_rubble_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> SILTY_ANDESITE_RUBBLE = BLOCKS.register("silty_andesite_rubble", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> SILTY_ANDESITE_RUBBLE_SLAB = BLOCKS.register("silty_andesite_rubble_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> SILTY_ANDESITE_RUBBLE_STAIRS = BLOCKS.register("silty_andesite_rubble_stairs", () -> new StairBlock(SILTY_ANDESITE_RUBBLE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> SILTY_ANDESITE_RUBBLE_WALL = BLOCKS.register("silty_andesite_rubble_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+
+    public static final RegistryObject<Block> VERY_DIRTY_ANDESITE_RUBBLE = BLOCKS.register("very_dirty_andesite_rubble", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> VERY_DIRTY_ANDESITE_RUBBLE_SLAB = BLOCKS.register("very_dirty_andesite_rubble_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> VERY_DIRTY_ANDESITE_RUBBLE_STAIRS = BLOCKS.register("very_dirty_andesite_rubble_stairs", () -> new StairBlock(VERY_DIRTY_ANDESITE_RUBBLE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> VERY_DIRTY_ANDESITE_RUBBLE_WALL = BLOCKS.register("very_dirty_andesite_rubble_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> VERY_MUDDY_ANDESITE_RUBBLE = BLOCKS.register("very_muddy_andesite_rubble", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> VERY_MUDDY_ANDESITE_RUBBLE_SLAB = BLOCKS.register("very_muddy_andesite_rubble_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> VERY_MUDDY_ANDESITE_RUBBLE_STAIRS = BLOCKS.register("very_muddy_andesite_rubble_stairs", () -> new StairBlock(VERY_MUDDY_ANDESITE_RUBBLE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> VERY_MUDDY_ANDESITE_RUBBLE_WALL = BLOCKS.register("very_muddy_andesite_rubble_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> VERY_SILTY_ANDESITE_RUBBLE = BLOCKS.register("very_silty_andesite_rubble", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> VERY_SILTY_ANDESITE_RUBBLE_SLAB = BLOCKS.register("very_silty_andesite_rubble_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> VERY_SILTY_ANDESITE_RUBBLE_STAIRS = BLOCKS.register("very_silty_andesite_rubble_stairs", () -> new StairBlock(VERY_SILTY_ANDESITE_RUBBLE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> VERY_SILTY_ANDESITE_RUBBLE_WALL = BLOCKS.register("very_silty_andesite_rubble_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+
+    public static final RegistryObject<Block> MOSSY_ANDESITE_BRICKS = BLOCKS.register("mossy_andesite_bricks", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> MOSSY_ANDESITE_BRICK_SLAB = BLOCKS.register("mossy_andesite_brick_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> MOSSY_ANDESITE_BRICK_STAIRS = BLOCKS.register("mossy_andesite_brick_stairs", () -> new StairBlock(MOSSY_ANDESITE_BRICKS.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> MOSSY_ANDESITE_BRICK_WALL = BLOCKS.register("mossy_andesite_brick_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> CHARRED_ANDESITE_BRICKS = BLOCKS.register("charred_andesite_bricks", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> CHARRED_ANDESITE_BRICK_SLAB = BLOCKS.register("charred_andesite_brick_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> CHARRED_ANDESITE_BRICK_STAIRS = BLOCKS.register("charred_andesite_brick_stairs", () -> new StairBlock(CHARRED_ANDESITE_BRICKS.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> CHARRED_ANDESITE_BRICK_WALL = BLOCKS.register("charred_andesite_brick_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+    public static final RegistryObject<Block> CHARRED_MOSSY_ANDESITE_BRICKS = BLOCKS.register("charred_mossy_andesite_bricks", () -> new Block(Properties.ofFullCopy(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> CHARRED_MOSSY_ANDESITE_BRICK_SLAB = BLOCKS.register("charred_mossy_andesite_brick_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_SLAB)));
+    public static final RegistryObject<Block> CHARRED_MOSSY_ANDESITE_BRICK_STAIRS = BLOCKS.register("charred_mossy_andesite_brick_stairs", () -> new StairBlock(CHARRED_MOSSY_ANDESITE_BRICKS.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
+    public static final RegistryObject<Block> CHARRED_MOSSY_ANDESITE_BRICK_WALL = BLOCKS.register("charred_mossy_andesite_brick_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
+
 }

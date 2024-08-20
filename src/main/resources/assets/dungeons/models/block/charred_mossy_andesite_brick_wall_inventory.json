@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "dungeons:block/charred_mossy_andesite_bricks"
+  }
+}

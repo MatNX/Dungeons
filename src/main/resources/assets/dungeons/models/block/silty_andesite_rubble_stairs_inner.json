@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dungeons:block/silty_andesite_rubble",
+    "side": "dungeons:block/silty_andesite_rubble",
+    "top": "dungeons:block/silty_andesite_rubble"
+  }
+}

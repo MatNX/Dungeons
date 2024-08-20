@@ -15,6 +15,21 @@
     "dungeons:silty_andesite_cube_stairs",
     "dungeons:silty_andesite_tile_stairs",
     "dungeons:very_silty_andesite_cube_stairs",
-    "dungeons:very_silty_andesite_tile_stairs"
+    "dungeons:very_silty_andesite_tile_stairs",
+    "dungeons:silt_andesite_cube_stairs",
+    "dungeons:mud_andesite_cube_stairs",
+    "dungeons:dirt_andesite_cube_stairs",
+    "dungeons:silt_andesite_rubble_stairs",
+    "dungeons:mud_andesite_rubble_stairs",
+    "dungeons:dirt_andesite_rubble_stairs",
+    "dungeons:silty_andesite_rubble_stairs",
+    "dungeons:muddy_andesite_rubble_stairs",
+    "dungeons:dirty_andesite_rubble_stairs",
+    "dungeons:very_silty_andesite_rubble_stairs",
+    "dungeons:very_muddy_andesite_rubble_stairs",
+    "dungeons:very_dirty_andesite_rubble_stairs",
+    "dungeons:mossy_andesite_brick_stairs",
+    "dungeons:charred_andesite_brick_stairs",
+    "dungeons:charred_mossy_andesite_brick_stairs"
   ]
 }

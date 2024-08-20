@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "dungeons:mossy_andesite_bricks"
+  },
+  "result": "dungeons:charred_mossy_andesite_bricks"
+}

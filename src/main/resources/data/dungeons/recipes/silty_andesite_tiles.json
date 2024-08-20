@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dungeons:silt"
+    },
+    {
+      "item": "dungeons:andesite_tiles"
+    },
+    {
+      "item": "dungeons:andesite_tiles"
+    },
+    {
+      "item": "dungeons:andesite_tiles"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "dungeons:silty_andesite_tiles"
+  }
+}
