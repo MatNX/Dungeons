@@ -186,4 +186,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> CHARRED_MOSSY_ANDESITE_BRICK_STAIRS = BLOCKS.register("charred_mossy_andesite_brick_stairs", () -> new StairBlock(CHARRED_MOSSY_ANDESITE_BRICKS.get().defaultBlockState(), Properties.ofFullCopy(Blocks.STONE_BRICK_STAIRS)));
     public static final RegistryObject<Block> CHARRED_MOSSY_ANDESITE_BRICK_WALL = BLOCKS.register("charred_mossy_andesite_brick_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)));
 
+    public static final RegistryObject<Block> TUMBLESTONE = BLOCKS.register("tumblestone", () -> new Block(Properties.ofFullCopy(Blocks.COBBLESTONE)));
+    public static final RegistryObject<Block> TUMBLESTONE_SLAB = BLOCKS.register("tumblestone_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.COBBLESTONE_SLAB)));
+    public static final RegistryObject<Block> TUMBLESTONE_STAIRS = BLOCKS.register("tumblestone_stairs", () -> new StairBlock(TUMBLESTONE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.COBBLESTONE_STAIRS)));
+    public static final RegistryObject<Block> TUMBLESTONE_WALL = BLOCKS.register("tumblestone_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.COBBLESTONE_WALL)));
+    public static final RegistryObject<Block> MOSSY_TUMBLESTONE = BLOCKS.register("mossy_tumblestone", () -> new Block(Properties.ofFullCopy(Blocks.COBBLESTONE)));
+    public static final RegistryObject<Block> MOSSY_TUMBLESTONE_SLAB = BLOCKS.register("mossy_tumblestone_slab", () -> new SlabBlock(Properties.ofFullCopy(Blocks.COBBLESTONE_SLAB)));
+    public static final RegistryObject<Block> MOSSY_TUMBLESTONE_STAIRS = BLOCKS.register("mossy_tumblestone_stairs", () -> new StairBlock(MOSSY_TUMBLESTONE.get().defaultBlockState(), Properties.ofFullCopy(Blocks.COBBLESTONE_STAIRS)));
+    public static final RegistryObject<Block> MOSSY_TUMBLESTONE_WALL = BLOCKS.register("mossy_tumblestone_wall", () -> new WallBlock(Properties.ofFullCopy(Blocks.COBBLESTONE_WALL)));
+
+    public static final RegistryObject<Block> ROCKY_SOIL = BLOCKS.register("rocky_soil", () -> new Block(Properties.ofFullCopy(Blocks.DIRT)));
+    public static final RegistryObject<Block> SNOWY_SOIL = BLOCKS.register("snowy_soil", () -> new Block(Properties.ofFullCopy(Blocks.DIRT)));
 }

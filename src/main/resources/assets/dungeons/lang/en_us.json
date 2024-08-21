@@ -149,5 +149,15 @@
   "block.dungeons.charred_mossy_andesite_bricks": "Charred Mossy Andesite Bricks",
   "block.dungeons.charred_mossy_andesite_brick_slab": "Charred Mossy Andesite Brick Slab",
   "block.dungeons.charred_mossy_andesite_brick_stairs": "Charred Mossy Andesite Brick Stairs",
-  "block.dungeons.charred_mossy_andesite_brick_wall": "Charred Mossy Andesite Brick Wall"
+  "block.dungeons.charred_mossy_andesite_brick_wall": "Charred Mossy Andesite Brick Wall",
+  "block.dungeons.tumblestone": "Tumblestone",
+  "block.dungeons.tumblestone_slab": "Tumblestone Slab",
+  "block.dungeons.tumblestone_stairs": "Tumblestone Stairs",
+  "block.dungeons.tumblestone_wall": "Tumblestone Wall",
+  "block.dungeons.mossy_tumblestone": "Mossy Tumblestone",
+  "block.dungeons.mossy_tumblestone_slab": "Mossy Tumblestone Slab",
+  "block.dungeons.mossy_tumblestone_stairs": "Mossy Tumblestone Stairs",
+  "block.dungeons.mossy_tumblestone_wall": "Mossy Tumblestone Wall",
+  "block.dungeons.rocky_soil": "Rocky Soil",
+  "block.dungeons.snowy_soil": "Snowy Soil"
 }

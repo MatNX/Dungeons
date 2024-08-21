@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeons:block/tumblestone_slab"
+    },
+    "type=double": {
+      "model": "dungeons:block/tumblestone"
+    },
+    "type=top": {
+      "model": "dungeons:block/tumblestone_slab_top"
+    }
+  }
+}

@@ -31,6 +31,8 @@
     "dungeons:full_patchy_silt_meadow_block",
     "dungeons:full_patchy_silt_grass_block",
     "dungeons:dry_sprouting_grass_block",
-    "dungeons:dry_patchy_grass_block"
+    "dungeons:dry_patchy_grass_block",
+    "dungeons:rocky_soil",
+    "dungeons:snowy_soil"
   ]
 }

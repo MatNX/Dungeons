@@ -30,6 +30,8 @@
     "dungeons:very_dirty_andesite_rubble_stairs",
     "dungeons:mossy_andesite_brick_stairs",
     "dungeons:charred_andesite_brick_stairs",
-    "dungeons:charred_mossy_andesite_brick_stairs"
+    "dungeons:charred_mossy_andesite_brick_stairs",
+    "dungeons:tumblestone_stairs",
+    "dungeons:mossy_tumblestone_stairs"
   ]
 }

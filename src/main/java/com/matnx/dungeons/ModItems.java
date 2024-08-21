@@ -182,4 +182,16 @@ public class ModItems {
     public static final RegistryObject<Item> CHARRED_MOSSY_ANDESITE_BRICK_SLAB_ITEM = ITEMS.register("charred_mossy_andesite_brick_slab", () -> new BlockItem(CHARRED_MOSSY_ANDESITE_BRICK_SLAB.get(), new Item.Properties()));
     public static final RegistryObject<Item> CHARRED_MOSSY_ANDESITE_BRICK_STAIRS_ITEM = ITEMS.register("charred_mossy_andesite_brick_stairs", () -> new BlockItem(CHARRED_MOSSY_ANDESITE_BRICK_STAIRS.get(), new Item.Properties()));
     public static final RegistryObject<Item> CHARRED_MOSSY_ANDESITE_BRICK_WALL_ITEM = ITEMS.register("charred_mossy_andesite_brick_wall", () -> new BlockItem(CHARRED_MOSSY_ANDESITE_BRICK_WALL.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> TUMBLESTONE_ITEM = ITEMS.register("tumblestone", () -> new BlockItem(TUMBLESTONE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TUMBLESTONE_SLAB_ITEM = ITEMS.register("tumblestone_slab", () -> new BlockItem(TUMBLESTONE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TUMBLESTONE_STAIRS_ITEM = ITEMS.register("tumblestone_stairs", () -> new BlockItem(TUMBLESTONE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> TUMBLESTONE_WALL_ITEM = ITEMS.register("tumblestone_wall", () -> new BlockItem(TUMBLESTONE_WALL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MOSSY_TUMBLESTONE_ITEM = ITEMS.register("mossy_tumblestone", () -> new BlockItem(MOSSY_TUMBLESTONE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MOSSY_TUMBLESTONE_SLAB_ITEM = ITEMS.register("mossy_tumblestone_slab", () -> new BlockItem(MOSSY_TUMBLESTONE_SLAB.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MOSSY_TUMBLESTONE_STAIRS_ITEM = ITEMS.register("mossy_tumblestone_stairs", () -> new BlockItem(MOSSY_TUMBLESTONE_STAIRS.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MOSSY_TUMBLESTONE_WALL_ITEM = ITEMS.register("mossy_tumblestone_wall", () -> new BlockItem(MOSSY_TUMBLESTONE_WALL.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> ROCKY_SOIL_ITEM = ITEMS.register("rocky_soil", () -> new BlockItem(ROCKY_SOIL.get(), new Item.Properties()));
+    public static final RegistryObject<Item> SNOWY_SOIL_ITEM = ITEMS.register("snowy_soil", () -> new BlockItem(SNOWY_SOIL.get(), new Item.Properties()));
 }

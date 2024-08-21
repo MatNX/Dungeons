@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeons:block/mossy_tumblestone_slab"
+    },
+    "type=double": {
+      "model": "dungeons:block/mossy_tumblestone"
+    },
+    "type=top": {
+      "model": "dungeons:block/mossy_tumblestone_slab_top"
+    }
+  }
+}

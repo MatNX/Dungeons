@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dungeons:mossy_tumblestone"
+  },
+  "result": "dungeons:mossy_tumblestone_slab"
+}

@@ -98,8 +98,18 @@ public class DungeonsMod
             event.accept(FULL_PATCHY_SILT_MEADOW_BLOCK_ITEM);
             event.accept(DRY_SPROUTING_GRASS_BLOCK_ITEM);
             event.accept(DRY_PATCHY_GRASS_BLOCK_ITEM);
+            event.accept(ROCKY_SOIL_ITEM);
+            event.accept(SNOWY_SOIL_ITEM);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(TUMBLESTONE_ITEM);
+            event.accept(TUMBLESTONE_SLAB_ITEM);
+            event.accept(TUMBLESTONE_STAIRS_ITEM);
+            event.accept(TUMBLESTONE_WALL_ITEM);
+            event.accept(MOSSY_TUMBLESTONE_ITEM);
+            event.accept(MOSSY_TUMBLESTONE_SLAB_ITEM);
+            event.accept(MOSSY_TUMBLESTONE_STAIRS_ITEM);
+            event.accept(MOSSY_TUMBLESTONE_WALL_ITEM);
             event.accept(ANDESITE_BRICKS_ITEM);
             event.accept(ANDESITE_BRICK_SLAB_ITEM);
             event.accept(ANDESITE_BRICK_STAIRS_ITEM);

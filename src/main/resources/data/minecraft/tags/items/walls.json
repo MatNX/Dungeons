@@ -30,6 +30,8 @@
     "dungeons:very_dirty_andesite_rubble_wall",
     "dungeons:mossy_andesite_brick_wall",
     "dungeons:charred_andesite_brick_wall",
-    "dungeons:charred_mossy_andesite_brick_wall"
+    "dungeons:charred_mossy_andesite_brick_wall",
+    "dungeons:tumblestone_wall",
+    "dungeons:mossy_tumblestone_wall"
   ]
 }

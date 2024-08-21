@@ -120,6 +120,14 @@
     "dungeons:charred_mossy_andesite_bricks",
     "dungeons:charred_mossy_andesite_brick_slab",
     "dungeons:charred_mossy_andesite_brick_stairs",
-    "dungeons:charred_mossy_andesite_brick_wall"
+    "dungeons:charred_mossy_andesite_brick_wall",
+    "dungeons:tumblestone",
+    "dungeons:tumblestone_slab",
+    "dungeons:tumblestone_stairs",
+    "dungeons:tumblestone_wall",
+    "dungeons:mossy_tumblestone",
+    "dungeons:mossy_tumblestone_slab",
+    "dungeons:mossy_tumblestone_stairs",
+    "dungeons:mossy_tumblestone_wall"
   ]
 }
